@@ -1,0 +1,4 @@
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Data\obj\Debug\netcoreapp3.1\Movie.Data.csprojAssemblyReference.cache
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Data\obj\Debug\netcoreapp3.1\Movie.Data.AssemblyInfoInputs.cache
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Data\obj\Debug\netcoreapp3.1\Movie.Data.AssemblyInfo.cs
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Data\obj\Debug\netcoreapp3.1\Movie.Data.csproj.CoreCompileInputs.cache

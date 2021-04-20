@@ -1,0 +1,8 @@
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Repository\bin\Debug\netcoreapp3.1\Movie.Repository.deps.json
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Repository\bin\Debug\netcoreapp3.1\Movie.Repository.dll
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Repository\bin\Debug\netcoreapp3.1\Movie.Repository.pdb
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Repository\obj\Debug\netcoreapp3.1\Movie.Repository.AssemblyInfoInputs.cache
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Repository\obj\Debug\netcoreapp3.1\Movie.Repository.AssemblyInfo.cs
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Repository\obj\Debug\netcoreapp3.1\Movie.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Repository\obj\Debug\netcoreapp3.1\Movie.Repository.dll
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Repository\obj\Debug\netcoreapp3.1\Movie.Repository.pdb
