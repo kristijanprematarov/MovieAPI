@@ -1,87 +1,56 @@
-﻿namespace MovieAPI.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+using Movie.Entities;
+using Movie.Service.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace MovieAPI.Controllers
 {
-    using Microsoft.AspNetCore.Http;
-    using Microsoft.AspNetCore.Mvc;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
-
-    public class MovieApiController : Controller
+    [Route("api/MovieAPI")]
+    [ApiController]
+    public class MovieAPIController : ControllerBase
     {
-        // GET: MovieApiController
-        public ActionResult Index()
+        private readonly IMovieService _movieService;
+
+        public MovieAPIController(IMovieService movieService)
         {
-            return View();
+            _movieService = movieService;
         }
 
-        // GET: MovieApiController/Details/5
-        public ActionResult Details(int id)
+        // GET: api/<MovieAPIController>
+        [HttpGet]
+        public IEnumerable<string> Get()
         {
-            return View();
+            return new string[] { "value1", "value2" };
         }
 
-        // GET: MovieApiController/Create
-        public ActionResult Create()
+        // GET api/<MovieAPIController>/5
+        [HttpGet("{id}")]
+        public MovieEntity Get(int id)
         {
-            return View();
+            return _movieService.GetMovie(id);
         }
 
-        // POST: MovieApiController/Create
+        // POST api/<MovieAPIController>
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public void Post([FromBody] string value)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
         }
 
-        // GET: MovieApiController/Edit/5
-        public ActionResult Edit(int id)
+        // PUT api/<MovieAPIController>/5
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] string value)
         {
-            return View();
         }
 
-        // POST: MovieApiController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        // DELETE api/<MovieAPIController>/5
+        [HttpDelete("{id}")]
+        public void Delete(int id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: MovieApiController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: MovieApiController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
         }
     }
 }

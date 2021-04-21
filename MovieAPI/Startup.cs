@@ -38,6 +38,7 @@ namespace MovieAPI
 
             //resolve repositories
             services.AddTransient<IMovieRepository, MovieRepository>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
 
             //resolve services
             services.AddTransient<IMovieService, MovieService>();

@@ -1,19 +1,19 @@
 ﻿namespace Movie.Repository
 {
     using Movie.Data;
+    using Movie.Entities;
     using Movie.Repository.Interfaces;
     using System;
     using System.Collections.Generic;
     using System.Text;
 
-    public class MovieRepository : IMovieRepository
+    public class MovieRepository : Repository<MovieEntity>, IMovieRepository
     {
-        private readonly DataContext _dataContext;
+        private readonly DataContext _context;
 
-        public MovieRepository(DataContext dataContext)
+        public MovieRepository(DataContext context) : base(context)
         {
-            _dataContext = dataContext;
+            _context = context;
         }
-
     }
 }

@@ -7,3 +7,10 @@ C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\M
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.dll
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.pdb
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.csprojAssemblyReference.cache
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\bin\Debug\netcoreapp3.1\Movie.Data.dll
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\bin\Debug\netcoreapp3.1\Movie.Entities.dll
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\bin\Debug\netcoreapp3.1\Movie.Repository.dll
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\bin\Debug\netcoreapp3.1\Movie.Repository.pdb
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\bin\Debug\netcoreapp3.1\Movie.Data.pdb
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\bin\Debug\netcoreapp3.1\Movie.Entities.pdb
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.csproj.CopyComplete

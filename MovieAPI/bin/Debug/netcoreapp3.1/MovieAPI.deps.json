@@ -1489,6 +1489,7 @@
       },
       "Movie.Service/1.0.0": {
         "dependencies": {
+          "Movie.Repository": "1.0.0",
           "NLog.Web.AspNetCore": "4.12.0"
         },
         "runtime": {
