@@ -18,4 +18,8 @@
     <PackageReference Include="NLog.Web.AspNetCore" Version="4.12.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Movie.Entities\Movie.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

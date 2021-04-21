@@ -34,7 +34,7 @@ namespace MovieAPI
             services.AddControllers();
 
             //resolve DataContext
-            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MovieAPIConnection")));
+            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MovieAPIConnectionWork")));
 
             //resolve repositories
             services.AddTransient<IMovieRepository, MovieRepository>();

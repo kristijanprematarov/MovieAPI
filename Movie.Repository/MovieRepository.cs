@@ -1,5 +1,6 @@
 ﻿namespace Movie.Repository
 {
+    using Movie.Data;
     using Movie.Repository.Interfaces;
     using System;
     using System.Collections.Generic;
@@ -7,5 +8,12 @@
 
     public class MovieRepository : IMovieRepository
     {
+        private readonly DataContext _dataContext;
+
+        public MovieRepository(DataContext dataContext)
+        {
+            _dataContext = dataContext;
+        }
+
     }
 }

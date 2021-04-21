@@ -1539,6 +1539,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.14",
+          "Movie.Entities": "1.0.0",
           "NLog.Web.AspNetCore": "4.12.0"
         },
         "compile": {
@@ -1548,10 +1549,22 @@
           "bin/placeholder/Movie.Data.dll": {}
         }
       },
+      "Movie.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Movie.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Movie.Entities.dll": {}
+        }
+      },
       "Movie.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Movie.Data": "1.0.0",
+          "Movie.Entities": "1.0.0",
           "NLog.Web.AspNetCore": "4.12.0"
         },
         "compile": {
@@ -5878,6 +5891,11 @@
       "path": "../Movie.Data/Movie.Data.csproj",
       "msbuildProject": "../Movie.Data/Movie.Data.csproj"
     },
+    "Movie.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Movie.Entities/Movie.Entities.csproj",
+      "msbuildProject": "../Movie.Entities/Movie.Entities.csproj"
+    },
     "Movie.Repository/1.0.0": {
       "type": "project",
       "path": "../Movie.Repository/Movie.Repository.csproj",
@@ -5902,9 +5920,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kristijan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Kristijan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5915,15 +5931,9 @@
       "packagesPath": "C:\\Users\\Kristijan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Kristijan\\source\\repos\\MovieAPI\\MovieAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\Kristijan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6001,7 +6011,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

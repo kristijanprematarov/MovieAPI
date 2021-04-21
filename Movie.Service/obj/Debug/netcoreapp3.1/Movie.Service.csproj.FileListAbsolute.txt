@@ -1,9 +1,9 @@
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\bin\Debug\netcoreapp3.1\Movie.Service.deps.json
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\bin\Debug\netcoreapp3.1\Movie.Service.dll
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\bin\Debug\netcoreapp3.1\Movie.Service.pdb
-C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.csprojAssemblyReference.cache
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.AssemblyInfoInputs.cache
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.AssemblyInfo.cs
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.csproj.CoreCompileInputs.cache
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.dll
 C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.pdb
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Service\obj\Debug\netcoreapp3.1\Movie.Service.csprojAssemblyReference.cache

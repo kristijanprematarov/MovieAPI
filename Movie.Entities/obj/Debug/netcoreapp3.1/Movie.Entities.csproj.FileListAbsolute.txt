@@ -1,0 +1,9 @@
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Entities\bin\Debug\netcoreapp3.1\Movie.Entities.deps.json
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Entities\bin\Debug\netcoreapp3.1\Movie.Entities.dll
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Entities\bin\Debug\netcoreapp3.1\Movie.Entities.pdb
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Entities\obj\Debug\netcoreapp3.1\Movie.Entities.csprojAssemblyReference.cache
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Entities\obj\Debug\netcoreapp3.1\Movie.Entities.AssemblyInfoInputs.cache
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Entities\obj\Debug\netcoreapp3.1\Movie.Entities.AssemblyInfo.cs
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Entities\obj\Debug\netcoreapp3.1\Movie.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Entities\obj\Debug\netcoreapp3.1\Movie.Entities.dll
+C:\Users\Kristijan\source\repos\MovieAPI\Movie.Entities\obj\Debug\netcoreapp3.1\Movie.Entities.pdb

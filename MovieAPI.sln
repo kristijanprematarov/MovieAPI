@@ -3,13 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieAPI", "MovieAPI\MovieAPI.csproj", "{2C42992A-50F7-4D1F-9442-F510AE6459D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieAPI", "MovieAPI\MovieAPI.csproj", "{2C42992A-50F7-4D1F-9442-F510AE6459D7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3B5A08B4-D432-4829-97D0-07158CE24D36} = {3B5A08B4-D432-4829-97D0-07158CE24D36}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Repository", "Movie.Repository\Movie.Repository.csproj", "{A4DECF60-E0BB-4BA8-B529-0489C4B3E1F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie.Repository", "Movie.Repository\Movie.Repository.csproj", "{A4DECF60-E0BB-4BA8-B529-0489C4B3E1F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3B5A08B4-D432-4829-97D0-07158CE24D36} = {3B5A08B4-D432-4829-97D0-07158CE24D36}
+		{0D039DC2-DE91-4066-A292-75BE0A269BE9} = {0D039DC2-DE91-4066-A292-75BE0A269BE9}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Service", "Movie.Service\Movie.Service.csproj", "{6BF9B04B-A1EB-4334-B167-44A1F1C16A8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie.Service", "Movie.Service\Movie.Service.csproj", "{6BF9B04B-A1EB-4334-B167-44A1F1C16A8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A4DECF60-E0BB-4BA8-B529-0489C4B3E1F4} = {A4DECF60-E0BB-4BA8-B529-0489C4B3E1F4}
+		{3B5A08B4-D432-4829-97D0-07158CE24D36} = {3B5A08B4-D432-4829-97D0-07158CE24D36}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Data", "Movie.Data\Movie.Data.csproj", "{0D039DC2-DE91-4066-A292-75BE0A269BE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie.Data", "Movie.Data\Movie.Data.csproj", "{0D039DC2-DE91-4066-A292-75BE0A269BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Entities", "Movie.Entities\Movie.Entities.csproj", "{3B5A08B4-D432-4829-97D0-07158CE24D36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +46,10 @@ Global
 		{0D039DC2-DE91-4066-A292-75BE0A269BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D039DC2-DE91-4066-A292-75BE0A269BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D039DC2-DE91-4066-A292-75BE0A269BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5A08B4-D432-4829-97D0-07158CE24D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5A08B4-D432-4829-97D0-07158CE24D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5A08B4-D432-4829-97D0-07158CE24D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5A08B4-D432-4829-97D0-07158CE24D36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
