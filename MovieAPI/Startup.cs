@@ -34,7 +34,7 @@ namespace MovieAPI
             services.AddControllers();
 
             //resolve DataContext
-            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MovieAPIConnectionWork")));
+            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MovieAPIConnection")));
 
             //resolve repositories
             services.AddTransient<IMovieRepository, MovieRepository>();
@@ -42,6 +42,9 @@ namespace MovieAPI
 
             //resolve services
             services.AddTransient<IMovieService, MovieService>();
+
+            //Cors
+            services.AddCors(policy => policy.AddPolicy("MovieApiPolicy", builder => builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +54,8 @@ namespace MovieAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors("MovieApiPolicy");
 
             app.UseHttpsRedirection();
 
