@@ -21,36 +21,14 @@ namespace MovieAPI.Controllers
             _movieService = movieService;
         }
 
-        // GET: api/<MovieAPIController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
 
-        // GET api/<MovieAPIController>/5
-        [HttpGet("{id}")]
+        // GET: api/<MovieAPIController>
+        [HttpGet("film/{id}")]
         public MovieEntity Get(int id)
         {
-            return _movieService.GetMovie(id);
+            var movie = _movieService.GetMovie(id);
+            return movie;
         }
 
-        // POST api/<MovieAPIController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<MovieAPIController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<MovieAPIController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }
